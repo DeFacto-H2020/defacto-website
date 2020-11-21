@@ -5,7 +5,7 @@
         <ul class="list-inline">
           {% if site.email %}
             <li class="list-inline-item">
-              <a href="mailto:{{ site.email }}">
+              <a target="_blank" href="mailto:{{ site.email }}">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
@@ -16,7 +16,7 @@
 
           {% if site.twitter_username %}
             <li class="list-inline-item">
-              <a href="https://twitter.com/{{ site.twitter_username }}">
+              <a target="_blank" href="https://twitter.com/{{ site.twitter_username }}">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
@@ -27,7 +27,7 @@
 
           {% if site.github_username %}
             <li class="list-inline-item">
-              <a href="https://github.com/{{ site.github_username }}">
+              <a target="_blank" href="https://github.com/{{ site.github_username }}">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-github fa-stack-1x fa-inverse"></i>
@@ -47,7 +47,7 @@
           {% for item in col.links %}
             <li>
               <i class="fa-li fa fa-chevron-circle-right"></i>
-              <a href="{{ item.href | relative_url}}" {% if item.new_window %}target="_blank"{% endif %}>{{ item.text }}</a>
+              <a target="_blank" href="{{ item.href | relative_url}}" {% if item.new_window %}target="_blank"{% endif %}>{{ item.text }}</a>
             </li>
           {% endfor %}
           </ul>

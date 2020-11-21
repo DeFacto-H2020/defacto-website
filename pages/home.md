@@ -1,8 +1,8 @@
 ---
 layout: home
-title: Our research project
-description: Towards developing a theme for research project websites
-background: /assets/img/chuttersnap-146799-unsplash.jpg
+title: Design Automation for Smart Manufacturing
+description: Rethinking the design foundations of high-assurance intelligent manufacturing systems
+background: /assets/img/header.jpg
 permalink: /
 ---
 

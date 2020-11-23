@@ -15,6 +15,7 @@ project aims at advancing
 the field of CPS design and its automation by developing novel modeling 
 paradigms, scalable algorithms, and tools to aid the design of smart 
 manufacturing systems, ultimately fostering their widespread adoption.
+{: .text-justify}
 
 DeFacto’s methodology reasons about systems using reliable compositional 
 abstractions of system behaviors based on assume-guarantee (A/G) contracts. 
@@ -30,3 +31,4 @@ these notions to enable effective and computationally tractable compositional
 abstractions for industrial CPSs, by blending techniques from formal methods, 
 simulation, and optimization for virtual prototyping and algorithmic synthesis 
 of control software.
+{: .text-justify}

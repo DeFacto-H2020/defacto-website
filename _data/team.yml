@@ -10,11 +10,13 @@
     He also holds a M.Sc. degree in Computer Science and Engineering and a B.Sc.
     in Computer Science from the University of Verona. 
     Michele is also a proud Erasmus alumnus.
-    <br>
+     {: .text-justify}
+    
     His research focuses on design automation methodologies for modeling,
     integration and efficient simulation of heterogeneous embedded systems,
     contract-based requirement engineering and verification for cyber-physical
-    systems.
+    systems. 
+     {: .text-justify}
   web: https://www.di.univr.it/?ent=persona&id=9255
   orcid: 0000-0002-6224-4313
   email: michele.lora@univr.it
@@ -34,11 +36,13 @@
    Since 1995, he has been with the Department of Electronics and Information, 
    Politecnico di Milano, as an assistant professor. He is a co-founder of 
    EDALab, an EDA company developing
-   tools for the design of networked embedded systems. 
-   <br>
+   tools for the design of networked embedded systems.
+    {: .text-justify}
+
    His current research
    interests include electronic design automation methodologies for modeling,
    verification, testing, and optimization of cyber-physical production systems.
+    {: .text-justify}
   web: https://www.di.univr.it/?ent=persona&id=59
   orcid: 0000-0002-4404-5791
   email: franco.fummi@univr.it
@@ -55,13 +59,14 @@
    He also holds a M.Sc. degree in Electrical Engineering from the University of 
    Pisa and the Sant'Anna School of Advanced Studies, Pisa, Italy.
    Prof. Nuzzo is a Marie Sklodowska Curie alumnus.
-   <br>
+    {: .text-justify} 
    His research interests include methodologies and tools for the design of 
    cyber-physical systems and mixed-signal systems; contracts, interfaces, and 
    compositional methods for embedded system design and requirement engineering; 
    the application of automated formal methods and optimization theory to 
    problems in embedded and cyber-physical systems and electronic 
-   design automation. 
+   design automation.
+    {: .text-justify}
   web: https://descyphy.usc.edu/ 
   orcid: 0000-0003-2984-0364
   email: nuzzo@usc.edu

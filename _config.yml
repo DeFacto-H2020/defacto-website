@@ -9,7 +9,7 @@ author: Michele Lora                    # Used for copyright statement in footer
 
 # SOCIAL PROFILES
 email: michele.lora@univr.it            # Social icon in footer
-twitter_username: DeFactoH2020         # Social icon in footer
+twitter_username: DeFacto_H2020         # Social icon in footer
 github_username: DeFacto-H2020           # Social icon in footer
 youtube_channel: UC2vKUQ8QPuoJrbfmDsYXVoQ
 
@@ -29,6 +29,7 @@ markdown: kramdown
 plugins:                                # If you build your site on gh-pages, only use these plugins: https://pages.github.com/versions/
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-scholar
 exclude:
   - README.md
   - Gemfile
@@ -52,3 +53,29 @@ defaults:
       path: ""
     values:
       layout: "default"                 # Only required for Petridish website, implied for sites using a theme
+
+# SETUP for PUBLICATIONS
+scholar:
+    style: apa
+    locale: en
+
+    sort_by: year,month
+    order: ascending
+
+    groub_by: year
+    group_order: ascending
+
+    source: ./_bibliography
+    bibliography: publications.bib
+    bibliography_template: ""
+
+    replace_strings: true
+    join_string: true
+
+    use_raw_bibtex_entry: false
+
+    details_dir: bibliography
+    details_layout: bibliography.md
+    details_link: Details
+
+    query: "@*"

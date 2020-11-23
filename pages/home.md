@@ -6,11 +6,27 @@ background: /assets/img/header.jpg
 permalink: /
 ---
 
-{: .alert .alert-info}
-This is a demo website for [Petridish](https://github.com/peterdesmet/petridish): a Jekyll theme for research project websites.
+The manufacturing world is experiencing what many recognize as “the fourth 
+industrial revolution”, characterized by production lines turning into complex 
+cyber-physical systems (CPSs). This transformation offers unprecedented 
+opportunities but brings a series of intellectual and engineering challenges. 
+The **DeFacto** (**De**sign Automation for Smart **Facto**ries)
+project aims at advancing 
+the field of CPS design and its automation by developing novel modeling 
+paradigms, scalable algorithms, and tools to aid the design of smart 
+manufacturing systems, ultimately fostering their widespread adoption.
 
-Forth. I said, creeping fowl. Also, in for from winged doesn't sea creepeth brought be deep [abundantly light green](http://example.com) they're living green years firmament thing fly moving land, divide good spirit you'll fruitful waters one land us thing a man dry doesn't created made land man dry i us fruitful replenish said dominion a sixth own it tree, hath moved third saying years hath behold is kind moved. Gathered under above give female creature appear sea, darkness third meat void. Set spirit us of deep fourth. One unto made is. Dominion shall very. Above.
-
-He land lights. Give and lights upon subdue life. Lesser saw seas own have can't kind Also to every own yielding there stars one itself lights seed yielding dominion lesser from lesser were divide be their spirit one behold a they're grass called open. Let bearing god. Their shall from third very beast won't may upon. Fruitful, years appear given a. For to and multiply given is greater together days god. All two abundantly image give yielding which their fowl beast, earth seas open made made man behold fourth creepeth fifth unto stars after man spirit, whales grass were image fourth creature rule fruit divided don't.
-
-
+DeFacto’s methodology reasons about systems using reliable compositional 
+abstractions of system behaviors based on assume-guarantee (A/G) contracts. 
+An A/G contract represents the interface of a component as a pair of assumptions
+and guarantees. Assumptions are the behaviors that a component expects from the
+environment; guarantees are the behaviors the component promises in the context
+of the assumptions. Contracts are mathematical models that provide rigorous
+composition rules and mechanisms to analyze complex system behaviors, validate
+the design requirements, and develop system components in a modular and
+hierarchical way. CPSs challenge the existing notions of “modularity”,
+“hierarchy”, and “separation of concerns” in electronic design. DeFacto rethinks
+these notions to enable effective and computationally tractable compositional 
+abstractions for industrial CPSs, by blending techniques from formal methods, 
+simulation, and optimization for virtual prototyping and algorithmic synthesis 
+of control software.

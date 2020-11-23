@@ -3,7 +3,7 @@
 .sass-cache
 _site
 Gemfile.lock
-
+*.Identifier
 # npm
 node_modules
 

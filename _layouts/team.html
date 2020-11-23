@@ -20,7 +20,13 @@ description: Template for team page
       <ul class="list-inline">
         {% if member.web %}
         <li class="list-inline-item">
-          <a href="{{ member.web }}" target=”_blank”><i class="fa fa-globe"></i></a>
+          <a href="{{ member.web }}" target=”_blank”><i class="fa fa-university"></i></a>
+        </li>
+        {% endif %}
+
+        {% if member.scholar %}
+        <li class="list-inline-item">
+          <a href="{{ member.scholar }}" target=”_blank”><i class="fa fa-graduation-cap"></i></a>
         </li>
         {% endif %}
 

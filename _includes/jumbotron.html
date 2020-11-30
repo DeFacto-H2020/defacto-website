@@ -1,14 +1,9 @@
-{% if page.background %}
-  <header class="jumbotron bg-image" style="background-image: url('{{ page.background | relative_url }}')">
-{% else %}
-  <header class="jumbotron bg-no-image">
-{% endif %}
+<header class="jumbotron bg-image" style="background-image: url('{{ site.background | relative_url }}')">
     <div class="container">
       <div class="row">
         <div class="col-md-10 col-lg-8 mx-auto">
-          <h1{% if page.layout == 'home' %} class="home"{% endif %}>{{ page.title }}</h1>
-          
-          <div class="lead">{{ page.description | markdownify }}</div>
+          <h1{% if page.layout == 'home' %} class="home"{% endif %}>{{ site.description }}</h1>
+          <div class="lead">{{ site.tagline | markdownify }}</div>
           
           {% if page.date %}
           <p class="meta">

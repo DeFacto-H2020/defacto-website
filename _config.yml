@@ -6,6 +6,8 @@ author: Michele Lora                    # Used for copyright statement in footer
 # baseurl: "/petridish"                 # Only required if your site is on a subdomain e.g. https://username.github.io/sitename
                                         # which has url: "https://username.github.io" (no slash) and baseurl: "/sitename" (leading slash)
                                         # A baseurl affects internal links, see http://peterdesmet.github.io/petridish/about/#links
+background: /assets/img/header.jpg
+tagline: Rethinking the design foundations of high-assurance intelligent manufacturing systems
 
 # SOCIAL PROFILES
 email: michele.lora@univr.it            # Social icon in footer

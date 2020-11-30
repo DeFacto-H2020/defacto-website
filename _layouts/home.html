@@ -27,7 +27,10 @@ remark: See also page.layout == 'home' in head.html and jumbotron.html
       </div>
     {% endif %}
     </div>
-    
+  {% if page.title != "news" %}
+    <div>
+    <h4> Latest News </h4>
+    </div>
   {% if site.posts_on_home > 0 %}
     <div class="row cards mt-4">
     {% for post in site.posts limit:site.posts_on_home %}
@@ -37,5 +40,6 @@ remark: See also page.layout == 'home' in head.html and jumbotron.html
     {% endfor %}
     </div>
   {% endif %}
+    {%endif%}
 </div>
 

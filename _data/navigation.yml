@@ -2,8 +2,8 @@
 
 - text: Home # Note that users can also reach the homepage by clicking the site's title on the left in the navbar
   href: /
-- text: About
-  href: /about/
+#- text: About
+#  href: /about/
 - text: Team
   href: /team/
 - text: Output
@@ -11,7 +11,7 @@
   - text: Publications
     href:  /publications/
   - text: "---" # Divider to separate blocks of menu items (at least 3 "-")
-  - text: "Dropdown header" # Title for block of menu items
+  - text: "Software" # Title for block of menu items
   - text: CHASE webpage
     href: https://chase-cps.github.io/chase/
     new_window: true

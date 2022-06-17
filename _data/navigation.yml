@@ -13,7 +13,7 @@
   - text: "---" # Divider to separate blocks of menu items (at least 3 "-")
   - text: "Software" # Title for block of menu items
   - text: CHASE webpage
-    href: https://chase-cps.github.io/chase/
+    href: https://chase-cps.github.io
     new_window: true
 - text: News
   href: /news/

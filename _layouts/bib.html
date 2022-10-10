@@ -1,0 +1,38 @@
+---
+---
+<div class="text-justify">
+    {{reference}}
+</div>
+    
+{% if entry.note %}
+<div>
+    <em>{{ entry.note }}</em>
+</div>
+{% endif %}
+
+    {% if entry.mydoi %}
+    <div>
+    <span> ->
+        <a href="{{ entry.mydoi | prepend: 'http://doi.org/' }}" 
+            target="_blank" 
+            rel="noopener noreferrer">{{ entry.mydoi }}</a>
+        {% if entry.golden %}
+             (open access)
+        {% endif %}
+    </span>
+    </div>
+    {% endif %}
+    <div>
+    {% if entry.pdf %}
+        <span> ->
+    <a href="{{ entry.pdf }}" target="_blank" 
+            rel="noopener noreferrer">
+            Open-access version</a></span>
+    {% endif %}
+    {% if entry.blog %}
+    <span> ->  
+        <a href="{{ entry.blog }}">
+            Blog post</a></span>
+    {% endif %}
+    </div>
+
